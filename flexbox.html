@@ -1,0 +1,68 @@
+<!-- FLEXBOX 
+/*where ul represents a flex container*/
+flex direction default is row
+The flex-flow is a shorthand property which takes flex-direction and Flex-wrap values
+ul {
+  flex-direction: row || column || row-reverse || column-reverse;
+  flex-wrap: wrap || no-wrap || wrap-reverse; default no-wrap;
+  flex-flow: row no-wrap;
+  justify-content: flex-start || flex-end || center || space-between || space-around;
+  }
+
+-->
+<!doctype html>
+<html>
+<head>
+	<title>Drawings</title>
+	<style>
+		
+/*Make parent element a flex container*/
+ul {
+  display: flex; /*or inline-flex*/
+ /* flex-direction: row;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap; /*direction "row" and yes, please wrap the items.*/
+
+  	background-color: #e8e8e9;
+ 	 border: 1px solid red;
+	padding: 0;
+	list-style: none;
+
+}
+li {
+  width: 100px;
+  height: 100px;
+  background-color: #8cacea;
+  margin: 8px;
+  padding: 4px;
+}
+
+
+
+
+	</style>
+
+	<script type="text/javascript">	</script>
+</head>
+<body>
+
+<ul> <!--parent element-->
+  <li>1</li> <!--first child element-->
+  <li>2</li> <!--second child element-->
+  <li>3</li> <!--third child element-->
+  <li>4</li> <!--first child element-->
+  <li>5</li> <!--second child element-->
+  <li>6</li> <!--third child element-->
+  <li>7</li> <!--first child element-->
+  <li>8</li> <!--second child element-->
+  <li>9</li> <!--third child element-->
+  <li>10</li> <!--first child element-->
+  <li>11</li> <!--second child element-->
+  <li>12</li> <!--third child element-->
+  <li>13</li> <!--first child element-->
+  <li>14</li> <!--second child element-->
+  <li>15</li> <!--third child element-->
+</ul>
+
+</body>
+</html>
